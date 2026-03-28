@@ -3,7 +3,7 @@
 namespace FlightBooking.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class Layout : Controller
+    public class LayoutController : Controller
     {
         public IActionResult AdminLayout()
         {
